@@ -1,9 +1,5 @@
 package caths;
-
 import java.util.*;
-
-
-
 
 class Flower {
 	String name;
