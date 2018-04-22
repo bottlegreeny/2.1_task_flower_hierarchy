@@ -1,5 +1,9 @@
 package caths;
+
 import java.util.*;
+
+
+
 
 class Flower {
 	String name;
@@ -32,7 +36,7 @@ class Flower {
 	
 	public void printCharacteristics (){
 		
-		System.out.println( name +   " of "  + colour + " colour are available only");
+		System.out.println( name +   " of "  + colour + " colour are available only, " + cost + " pounds");
 		
 	}
 	public String toString() {
@@ -82,6 +86,7 @@ static class Cactus extends Flower {
 }
 		
 
+
 public static class Bouquet {
 	
 	static Collection fill(Collection<Flower> collection) {
@@ -97,21 +102,30 @@ public static class Bouquet {
 
 	
 	public static void main(String [] args) {
+		
+		
 	
 		System.out.println(fill (new ArrayList<Flower>()));
+		
 		Daffodil dff = new Daffodil("Daffodils", "yellow", 20);
 		dff.printCharacteristics();
+		
 		Rose rs = new Rose("Roses", "red", 30);
 		rs.printCharacteristics();
+		
 		Chamomile ch = new Chamomile("Chamomiles", "white", 40);
 		ch.printCharacteristics();
+		
 		Cactus ct = new Cactus("Cactuses", "green", 50);
 		ct.printCharacteristics();
 		System.out.println("The total sum of your bouquet is: " + Flower.total + " pounds");
 		
+		
+		
+	
 	}
   
-    }
+  }
 }
 
 
