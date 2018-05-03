@@ -8,7 +8,7 @@ import java.util.*;
 class Flower {
 	String name;
 	String colour;
-	static int cost;
+	int cost;
 	static int total;
 	
 	Flower (String name, String colour, int cost){
