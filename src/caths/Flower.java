@@ -27,12 +27,7 @@ class Flower {
 		return cost;
 	}
 	 
-	
-	public void print (){
-		
-		System.out.print("In CuteFlowerStore you will find a ");
-		
-	}
+
 	
 	public void printCharacteristics (){
 		
